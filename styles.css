@@ -1,0 +1,96 @@
+/* ===== General Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Global Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* ===== Header ===== */
+.site-header {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #023e8a;
+}
+
+.site-header h1 {
+    font-size: 2.5rem;
+}
+
+.site-header .tagline {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* ===== Navigation ===== */
+.navbar {
+    background: #90e0ef;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #023e8a;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #03045e;
+}
+
+/* ===== Main Container ===== */
+.container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* ===== Card Sections ===== */
+.card {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 2px solid #adb5bd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-bottom: 1rem;
+    color: #0077b6;
+}
+
+/* ===== Button Styling ===== */
+.btn {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #023e8a;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+    text-align: center;
+    padding: 1rem;
+    background: #90e0ef;
+    border-top: 4px solid #0077b6;
+    margin-top: 2rem;
+}
